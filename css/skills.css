@@ -1,0 +1,21 @@
+.skills {
+  width: 100vw;
+  height: 100%;
+  background: linear-gradient(to bottom, #D6CEE5 0%,#A8DBFF 100%);
+}
+
+.progress-bar {
+  background: #6FABD5 !important;
+}
+
+.volunteer {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: underline;
+  color: white;
+}
+
+.volunteer:hover {
+  color: white;
+  letter-spacing: 1px;
+  text-decoration: none;
+}

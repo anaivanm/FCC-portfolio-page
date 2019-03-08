@@ -1,0 +1,26 @@
+@import 'navbar.css';
+@import 'hero.css';
+@import 'projects.css';
+@import 'parallax.css';
+@import 'skills.css';
+@import 'footer.css';
+
+
+.container-fluid {
+  padding: 0px !important;
+  margin-right: 0px !important;
+}
+
+
+h1, h3, h5 {
+  color: white !important;
+  font-family: 'Passion One', cursive !important;
+  letter-spacing: 3px;
+  text-shadow: 0px 1px 7px rgba(0,0,0,0.05);
+}
+p {
+  font-family: 'Roboto', sans-serif !important;
+  color: white !important;
+  text-shadow: 0px 1px 7px rgba(0,0,0,0.05);
+  font-size: 20px !important;
+}

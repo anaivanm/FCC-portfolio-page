@@ -1,0 +1,49 @@
+/* PARALLAX */
+.parallax-one {
+  padding-top: 170px;
+  padding-bottom: 300px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  background-image: url('../img/parallax-one.jpg');
+  background-color: #d7e5dd;
+  background-blend-mode: luminosity;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.parallax-two {
+  padding-top: 170px;
+  padding-bottom: 300px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  background-image: url('../img/parallax-two.jpg');
+  background-color: #D6CEE5;
+  background-blend-mode: luminosity;
+  background-attachment: fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.parallax-three {
+  padding-top: 170px;
+  padding-bottom: 425px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  background-image: url('../img/parallax-three.jpg');
+  background-color: #A8DBFF;
+  background-blend-mode: luminosity;
+  background-attachment: fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}

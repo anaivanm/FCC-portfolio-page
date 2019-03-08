@@ -1,0 +1,41 @@
+/* HEADER */
+.hero {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to bottom, #f3cfe3 0%,#d7e5dd 100%);
+}
+
+.main-text {
+  width: 60%;
+}
+
+.scroll-down {
+  position: absolute;
+  left: 50%;
+  bottom: 5vh;
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  z-index: 100;
+  text-shadow: 0px 1px 7px rgba(0,0,0,0.05);
+  width: 20px;
+  height: 20px;
+  border-bottom: 4px solid white;
+  border-right: 4px solid white;
+  transform: translate(-50%, 0%) rotate(45deg);
+  animation: fademovedown 2s ease-in-out infinite;
+}
+
+@keyframes fademovedown {
+  0% {
+    transform:translate(0, -10px) rotate(45deg);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform:translate(0, 10px) rotate(45deg);
+    opacity: 0;
+  }
+}

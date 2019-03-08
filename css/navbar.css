@@ -1,0 +1,21 @@
+/* NAVBAR */
+li {
+  list-style: none;
+  float: left;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.nav-link:hover {
+  color: white;
+  animation: size 500ms ease-in-out;
+  text-decoration: none;
+}
+
+@keyframes size {
+  50% {
+    font-size: 22px;
+  }
+}
